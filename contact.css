@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.nav2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav3{
+    background-color: palevioletred;
+    color: white;
+    padding: 15px;    
+}
+
+.nav3 ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav3 ul li{
+    padding: 0 70px;
+}
+
+.nav3 a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.text-content{
+    background-image: url(images/fashion-background-image.jpg);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-content > div{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    left: 40%;
+}
+
+ /* #section{
+    background-color: lightgray;
+} */
+
+ .section-one{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.form-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.form-one{
+    padding: 20px;   
+}
+
+.form-two{
+    padding: 20px;    
+} 
+
+/* form label{
+    padding: 50px;
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    border-radius: 1px solid;
+    display: flex;
+} */
+
+.daily{
+    line-height: 2;
+}
+
+.text{
+    padding: 0 80px;
+    background-color: white;
+}
+.text button {
+    border: 2px solid rgba(0, 0, 0, 0.776);
+    border-radius:8px;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    /* border: none; */
+    padding: 5px 20px;
+    font-size: 17px;
+    font-family: cursive;
+    color: red;
+    margin-top: 20px;
+}  
+
+.newsletter{
+    padding: 20px;
+    text-align: center;
+ }
+
+ .form-area{
+    position: relative;
+}
+
+.form-area input{
+    max-width: 200px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.form-area button{
+    max-width: 100px;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    position: absolute;
+    /* left: 190px; */
+    top: 10px;
+}
+
+.footer{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.footer > div{
+    width: 20%;
+}
+
+.footer h3{
+    padding: 20px;
+    margin-right: 200px;
+
+}
+
+.menu{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.knowledge{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.links{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.con{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.con2 i{
+    padding: 0 10px;
+    border: 1px solid;
+    margin: 2px;
+    padding: 7px;   
+}

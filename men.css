@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.nav2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav3{
+    background-color: palevioletred;
+    color: white;
+    padding: 15px;    
+}
+
+.nav3 ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav3 ul li{
+    padding: 0 70px;
+}
+
+.nav3 a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.text-content{
+    background-image: url(images/backgroundimage-men-page.jpg);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-content > div{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    left: 40%;
+}
+
+.text-content button{
+    padding: 12px;
+    background-color:white;
+    color: red;
+    border: none;
+}
+
+.cart-section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+    width: 100%;
+}
+
+.cart{
+    position: relative;
+}
+
+.cart img{
+    width: 100%;
+}
+
+.lad button{
+    width: 100px;
+    padding: 12px;
+    background-color:white;
+    color: red;
+    border: none;
+}
+
+.lad{
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    padding: 30px;
+    top: 20%;
+    left: 30%;
+}
+
+.filter {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    font-size: 25px;
+    align-items: center;
+    margin: auto;
+}
+
+#menfashion-images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menfashion-images img{
+    width: 100%;
+    height: 300px;
+}
+
+.menshirt-images{
+    width: 25%; 
+    padding: 20px;
+    text-align: center; 
+}
+
+.menshirt-images2{
+    width: 25%; 
+    padding: 10px;
+    text-align: center;   
+}
+
+.shopnow{
+    text-align: center;
+    padding: 10px;
+}
+
+.shopnow button{
+    background-color: red;
+    color: white;
+    width: 15%;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.discount-sales{
+    display: flex;
+    padding: 25px 80px;
+    max-width: 60%;
+    height: 200px; 
+    margin: 0 auto; 
+}
+
+.discount{
+    background-color: rgba(255, 0, 0, 0.489);
+    color: white;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+.discount-image img{
+    width: 60%;
+    height: 150px;
+}
+
+.unisex-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.unisex-section img{
+    width: 100%;
+}
+
+.men-women img{
+    width: 100%;
+}
+
+.men-women p{
+    text-align: center;
+}
+
+.price-tag{
+    color: red;
+}
+
+.variety{
+    text-align: center;
+    padding: 10px;
+}
+
+.variety button{
+    background-color: red;
+    color: white;
+    width: 15%;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.reach-out{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.reach{
+    line-height: 2;
+    color: white;
+    padding: 20px;
+    width: 33.3%;
+}
+
+.reach h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.reach p{
+    text-align: center;
+}
+
+.icons{
+    color: red;
+    text-align: center;
+}
+
+.latest-blog{
+    text-align: center;
+    padding: 30px;
+    color: red;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.collections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.collections img{
+    width: 100%;
+}
+
+.collections p{
+    text-align: center;
+}
+
+.newsletter{
+    padding: 20px;
+    text-align: center;
+    clear: both;
+ }
+
+ .form-area{
+    position: relative;
+}
+
+.form-area input{
+    max-width: 200px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.form-area button{
+    max-width: 100px;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    position: absolute;
+    /* left: 190px; */
+    top: 10px;
+}
+
+.footer{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.footer > div{
+    width: 20%;
+}
+
+.footer h3{
+    padding: 20px;
+    margin-right: 200px;
+}
+
+.menu{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.knowledge{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.links{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.con{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.con2 i{
+    padding: 0 10px;
+    border: 1px solid;
+    margin: 2px;
+    padding: 7px;   
+}
+
+@media screen and (max-width:800px) {
+
+    .menshirt-images{
+        width: 30%;
+    }
+    
+    .menshirt-images2{
+        width: 30%;
+    }
+    
+    .shopnow button{
+        width: 40%;
+    }
+
+    .discount-sales{
+        width: 60%;
+    }
+
+    .variety button{
+        width: 40%;
+    }
+    
+
+}
+
+@media screen and (max-width:650px) {
+    .cart img{
+        width: 50%;
+    }
+    
+    .menfashion-images{
+        width: 60%;
+    }
+    
+    .menshirt-images{
+        width: 45%;
+    }
+    
+    .menshirt-images2{
+        width: 45%;
+    }
+
+    .shopnow button{
+        width: 50%;
+    }
+
+    .discount-sales{
+        width: 70%;
+    }
+
+    .variety button{
+        width: 50%;
+    }
+
+    .reach{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:350px) {
+
+    .text-content{
+           width: 100%;
+    }
+
+     .cart img{
+        width: 100%;
+     }
+
+    .menshirt-images{
+        width: 100%;
+    }
+
+    .menshirt-images2{
+        width: 100%;
+    }
+
+    .shopnow button{
+        width: 100%;
+    }
+
+    .discount-sales{
+        width: 80%;
+    }
+
+    .variety button{
+        width: 100%;
+    }
+
+    .reach{
+        width: 100%;
+    }
+    
+}

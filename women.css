@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.nav2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav3{
+    background-color: palevioletred;
+    color: white;
+    padding: 15px;    
+}
+
+.nav3 ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav3 ul li{
+    padding: 0 70px;
+}
+
+.nav3 a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.text-content{
+    background-image: url(images/fashion-background-image.jpg);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-content > div{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    left: 40%;
+}
+
+#category-tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags{
+    padding: 20px;
+    text-align: center;
+    line-height: 2;
+    width: 20%;
+}
+
+.tags > div > h3{
+    color: rgba(255, 0, 0, 0.678);
+    border-bottom: 1px solid rgba(255, 0, 0, 0.678);
+}
+
+.tags > div > ul{
+    list-style-type: none;
+}
+
+.views-tag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.views-tag > div {
+    width: 50%;
+}
+
+.views-tag > p{
+    width: 45%;
+    padding: 10px;
+}
+
+.views-tag img{
+    width: 100%;
+}
+
+.products-tag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.products-tag > div{
+    width: 50%;
+}
+
+.products-tag > p{
+    width: 45%;
+    padding: 10px;
+}
+
+.products-tag img{
+    width: 100%;
+}
+
+.gown-pictures{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.gown-pictures > div{
+    width:30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gown-pictures img{
+    width: 100%;
+}
+
+
+.newsletter{
+    padding: 20px;
+    text-align: center;
+    /* clear: both; */
+}
+
+.form-area{
+    position: relative;
+}
+
+.form-area input{
+    max-width: 200px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.form-area button{
+    max-width: 100px;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    position: absolute;
+    /* left: 190px; */
+    top: 10px;
+}
+
+.footer{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.footer > div{
+    width: 20%;
+}
+
+.footer h3{
+    padding: 20px;
+    margin-right: 200px;
+    width: 20%;
+}
+
+.menu{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.knowledge{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.links{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.con{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.con2 i{
+    padding: 0 10px;
+    border: 1px solid;
+    margin: 2px;
+    padding: 7px;  
+}
+
+@media screen and (max-width:650px) {
+    .tags{
+        width: 40%;
+    }
+    .gown-pictures{
+        width: 60%;
+    }
+
+    .gown-pictures > div{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .gown-pictures > div{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .footer h3{
+        width: 100%;
+
+    }
+    
+    .menu{
+        width: 100%;
+    }
+    .knowledge{
+        width: 100%;
+    }
+    .links{
+        width: 100%;
+    }
+    .con{
+        width: 100%;
+    }
+}
