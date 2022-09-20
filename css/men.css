@@ -59,7 +59,7 @@ nav a{
 }
 
 .text-content{
-    background-image: url(images/backgroundimage-men-page.jpg);
+    background-image: url(../images/backgroundimage-men-page.jpg);
     height: 300px;
     width: 100%;
     background-repeat: no-repeat;
@@ -402,6 +402,10 @@ nav a{
     .reach{
         width: 50%;
     }
+
+    .footer > div{
+        width: 45%;
+    }
 }
 
 @media screen and (max-width:350px) {
@@ -438,4 +442,7 @@ nav a{
         width: 100%;
     }
     
+    .footer > div{
+        width: 60%;
+    }
 }

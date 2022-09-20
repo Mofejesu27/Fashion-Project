@@ -59,7 +59,7 @@ nav a{
 }
 
 .text-content{
-    background-image: url(images/fashion-background-image.jpg);
+    background-image: url(../images/fashion-background-image.jpg);
     height: 300px;
     width: 100%;
     background-repeat: no-repeat;
@@ -75,80 +75,62 @@ nav a{
     left: 40%;
 }
 
-#beach-blog{
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-between;
+ /* #section{
+    background-color: lightgray;
+} */
+
+ .section-one{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
 }
 
-.beach-vibes{
-    width: 75%;
+.form-body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 20px;
-
+    padding: 30px;
 }
 
-.beach-vibes > div{
-    width:30%;
+.form-one{
+    padding: 20px;   
+}
+
+.form-two{
+    padding: 20px;    
+} 
+
+/* form label{
+    padding: 50px;
     text-align: center;
-    margin-bottom: 20px;
-}
-
-.beach-vibes h4{
-    padding: 20px;
-}
-
-.beach-vibes{
-    width: 100%;
-}
-
-.beach-vibes p{
-    padding: 20px;
-}
-
-.beach-vibes img{
-    width: 100%;
-}
-
-.beach-essentials{
-    padding: 20px;
-    text-align: center;
-    line-height: 2;
+    display: inline-block;
     width: 20%;
-}
-
-.beach-essentials > div > h3{
-    color: rgba(255, 0, 0, 0.678);
-    border-bottom: 1px solid rgba(255, 0, 0, 0.678);
-}
-
-.beach-essentials > div > ul{
-    list-style-type: none;
-}
-
-.recent-post{
+    border-radius: 1px solid;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 10px;
+} */
+
+.daily{
+    line-height: 2;
 }
 
-.recent-post > div {
-    width: 50%;
+.text{
+    padding: 0 80px;
+    background-color: white;
 }
+.text button {
+    border: 2px solid rgba(0, 0, 0, 0.776);
+    border-radius:8px;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    /* border: none; */
+    padding: 5px 20px;
+    font-size: 17px;
+    font-family: cursive;
+    color: red;
+    margin-top: 20px;
+}  
 
-.recent-post> p{
-    width: 45%;
-    padding: 10px;
-}
-
-.recent-post img{
-    width: 100%;
-}
-
- .newsletter{
+.newsletter{
     padding: 20px;
     text-align: center;
  }
@@ -194,18 +176,22 @@ nav a{
     margin-right: 200px;
 
 }
+
 .menu{
     list-style-type: none;
     line-height: 2;
 }
+
 .knowledge{
     list-style-type: none;
     line-height: 2;
 }
+
 .links{
     list-style-type: none;
     line-height: 2;
 }
+
 .con{
     list-style-type: none;
     line-height: 2;
@@ -215,26 +201,17 @@ nav a{
     padding: 0 10px;
     border: 1px solid;
     margin: 2px;
-    padding: 7px;  
+    padding: 7px;   
 }
 
-@media screen and (max-width:650px) {
-    .tags{
-        width: 40%;
-    }
-    .beach-vibes{
-        width: 60%;
-    }
-
-    .beach-vibes > div{
+@media screen and (max-width: 550px) {
+    .footer > div{
         width: 45%;
     }
 }
 
-@media screen and (max-width:550px) {
-    .beach-vibes > div{
-        width: 100%;
+@media screen and (max-width: 350px) {
+    .footer > div{
+        width: 55%;
     }
 }
-
- 

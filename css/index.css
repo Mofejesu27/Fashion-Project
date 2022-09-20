@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-img{
-    width: 100%;
-}
-
 nav{
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +39,7 @@ nav a{
 .nav3{
     background-color: palevioletred;
     color: white;
-    padding: 15px;    
+    padding: 15px;   
 }
 
 .nav3 ul{
@@ -63,7 +59,7 @@ nav a{
 }
 
 .text-content{
-    background-image: url(images/fashion-background-image.jpg);
+    background-image: url(../images/fashion-background-image.jpg);
     height: 300px;
     width: 100%;
     background-repeat: no-repeat;
@@ -88,7 +84,7 @@ nav a{
     padding: 20px;
     text-align: center;
     line-height: 2;
-    width: 20%;
+    width: 20%;   
 }
 
 .tags > div > h3{
@@ -158,14 +154,12 @@ nav a{
     width: 100%;
 }
 
-
 .newsletter{
     padding: 20px;
     text-align: center;
-    /* clear: both; */
 }
 
-.form-area{
+ .form-area{
     position: relative;
 }
 
@@ -175,7 +169,6 @@ nav a{
     margin-top: 10px;
     outline: none;
 }
-
 .form-area button{
     max-width: 100px;
     padding: 12px;
@@ -204,7 +197,6 @@ nav a{
 .footer h3{
     padding: 20px;
     margin-right: 200px;
-    width: 20%;
 }
 
 .menu{
@@ -231,7 +223,7 @@ nav a{
     padding: 0 10px;
     border: 1px solid;
     margin: 2px;
-    padding: 7px;  
+    padding: 7px;    
 }
 
 @media screen and (max-width:650px) {
@@ -251,24 +243,16 @@ nav a{
     .gown-pictures > div{
         width: 100%;
     }
+
+    .footer > div{
+        width: 45%;
+    }
 }
 
-@media screen and (max-width:300px) {
-    .footer h3{
-        width: 100%;
-
-    }
-    
-    .menu{
-        width: 100%;
-    }
-    .knowledge{
-        width: 100%;
-    }
-    .links{
-        width: 100%;
-    }
-    .con{
-        width: 100%;
+@media screen and (max-width: 350px) {
+    .footer > div{
+        width: 55%;
     }
 }
+
+

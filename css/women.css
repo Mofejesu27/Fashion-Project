@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+}
+
 nav{
     display: flex;
     flex-wrap: wrap;
@@ -59,7 +63,7 @@ nav a{
 }
 
 .text-content{
-    background-image: url(images/fashion-background-image.jpg);
+    background-image: url(../images/fashion-background-image.jpg);
     height: 300px;
     width: 100%;
     background-repeat: no-repeat;
@@ -75,67 +79,93 @@ nav a{
     left: 40%;
 }
 
- /* #section{
-    background-color: lightgray;
-} */
-
- .section-one{
-    padding: 20px;
-    text-align: center;
-    background-color: white;
+#category-tags{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.form-body{
+.tags{
+    padding: 20px;
+    text-align: center;
+    line-height: 2;
+    width: 20%;
+}
+
+.tags > div > h3{
+    color: rgba(255, 0, 0, 0.678);
+    border-bottom: 1px solid rgba(255, 0, 0, 0.678);
+}
+
+.tags > div > ul{
+    list-style-type: none;
+}
+
+.views-tag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.views-tag > div {
+    width: 50%;
+}
+
+.views-tag > p{
+    width: 45%;
+    padding: 10px;
+}
+
+.views-tag img{
+    width: 100%;
+}
+
+.products-tag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.products-tag > div{
+    width: 50%;
+}
+
+.products-tag > p{
+    width: 45%;
+    padding: 10px;
+}
+
+.products-tag img{
+    width: 100%;
+}
+
+.gown-pictures{
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 30px;
-}
-
-.form-one{
-    padding: 20px;   
-}
-
-.form-two{
-    padding: 20px;    
-} 
-
-/* form label{
-    padding: 50px;
-    text-align: center;
-    display: inline-block;
-    width: 20%;
-    border-radius: 1px solid;
-    display: flex;
-} */
-
-.daily{
-    line-height: 2;
-}
-
-.text{
-    padding: 0 80px;
-    background-color: white;
-}
-.text button {
-    border: 2px solid rgba(0, 0, 0, 0.776);
-    border-radius:8px;
-    border-left-style: dotted;
-    border-right-style: dotted;
-    /* border: none; */
-    padding: 5px 20px;
-    font-size: 17px;
-    font-family: cursive;
-    color: red;
     margin-top: 20px;
-}  
+}
+
+.gown-pictures > div{
+    width:30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gown-pictures img{
+    width: 100%;
+}
+
 
 .newsletter{
     padding: 20px;
     text-align: center;
- }
+    /* clear: both; */
+}
 
- .form-area{
+.form-area{
     position: relative;
 }
 
@@ -174,7 +204,7 @@ nav a{
 .footer h3{
     padding: 20px;
     margin-right: 200px;
-
+    width: 20%;
 }
 
 .menu{
@@ -201,5 +231,36 @@ nav a{
     padding: 0 10px;
     border: 1px solid;
     margin: 2px;
-    padding: 7px;   
+    padding: 7px;  
 }
+
+@media screen and (max-width:650px) {
+    .tags{
+        width: 40%;
+    }
+    .gown-pictures{
+        width: 60%;
+    }
+
+    .gown-pictures > div{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .gown-pictures > div{
+     width: 100%;
+    }
+
+        .footer > div{
+        width: 45%;
+        }
+}
+
+@media screen and (max-width: 350px) {
+    .footer > div{
+        width: 55%;
+    }
+}
+
+
