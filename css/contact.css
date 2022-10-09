@@ -100,6 +100,10 @@ nav a{
     padding: 20px;    
 } 
 
+input{
+    padding: 6px;
+}
+
 /* form label{
     padding: 50px;
     text-align: center;

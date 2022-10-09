@@ -84,7 +84,7 @@ nav a{
 
 .cart-section{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding: 30px 50px;
     width: 100%;
 }
@@ -161,25 +161,14 @@ nav a{
     text-align: center;
 }
 
-.discount-sales{
-    display: flex;
-    padding: 25px 80px;
-    max-width: 60%;
-    height: 200px; 
-    margin: 0 auto; 
-}
 
 .discount{
     background-color: rgba(255, 0, 0, 0.489);
     color: white;
-    padding: 20px;
-    width: 40%;
-    text-align: center;
-}
-
-.discount-image img{
-    width: 60%;
-    height: 150px;
+    max-width: 60%;
+    text-align: center; 
+    margin: 10px auto;
+    padding: 25px 80px;
 }
 
 .unisex-section{
@@ -359,10 +348,6 @@ nav a{
         width: 40%;
     }
 
-    .discount-sales{
-        width: 60%;
-    }
-
     .variety button{
         width: 40%;
     }
@@ -371,10 +356,18 @@ nav a{
 }
 
 @media screen and (max-width:650px) {
+
+    .cart-section{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px 50px;
+        width: 100%;
+    }
+
     .cart img{
         width: 50%;
     }
-    
+
     .menfashion-images{
         width: 60%;
     }
@@ -391,8 +384,8 @@ nav a{
         width: 50%;
     }
 
-    .discount-sales{
-        width: 70%;
+    .discount{
+        display: none;
     }
 
     .variety button{
@@ -428,10 +421,6 @@ nav a{
 
     .shopnow button{
         width: 100%;
-    }
-
-    .discount-sales{
-        width: 80%;
     }
 
     .variety button{
